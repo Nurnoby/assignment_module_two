@@ -18,12 +18,12 @@ function count(){
 // image switcher
 function imageOne(){
     var myImageOne=document.getElementById('changeImage');
-    myImageOne.src="../images/image_one.jpg";
+    myImageOne.src="images/image_one.jpg";
 }
 
 function imageTwo(){
     var myImageOne=document.getElementById('changeImage');
-    myImageOne.src="../images/image_two.jpg";
+    myImageOne.src="images/image_two.jpg";
 }
 
 // Ajax
