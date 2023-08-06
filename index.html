@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>  
+  <body>
+    <section class="container">
+      <div class="row">
+        <!-- question 1 -->
+        <div class="col-lg-6">
+          <div class="dom-manupulation">
+            <h3>DOM Manipulation</h3>
+            <div id="changeDiv"></div>
+            <button class="btn btn-primary" onclick="domManupulate()">Manupulate Dom</button>
+          </div>
+        </div>
+        <!-- question 2 -->
+        <div class="col-lg-6">
+          <div class="dom-manupulation">
+            <h3>Click Counter</h3>
+            <p id="showCount">0</p>
+            <button class="btn btn-primary" onclick="count()">Count</button>
+          </div>
+        </div>
+        <!-- question 3 -->
+        <div class="col-lg-6">
+          <div class="dom-manupulation">
+            <h3>Image Switcher</h3>
+            <div class="img-style">
+              <img id="changeImage" src="images/image_one.jpg" alt="">             
+            </div>
+            <button class="btn btn-primary" onclick="imageTwo()">Switch Image to Two</button>
+            <button class="btn btn-primary" onclick="imageOne()">Switch Image to One</button>
+          </div>
+        </div>
+        <!-- question 3 -->
+        <div class="col-lg-6">
+          <div class="dom-manupulation">
+            <h3>AJAX Fetch Data in Console</h3>            
+            <button class="btn btn-primary" onclick="getData()">Fetch Data</button>
+        
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

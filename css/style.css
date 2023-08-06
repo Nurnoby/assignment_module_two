@@ -1,0 +1,22 @@
+.dom-manupulation{
+    padding:50px;
+    border:1px solid #dadada;
+}
+.dom-manupulation h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#changeDiv{
+    padding-bottom: 30px;
+}
+.img-style{
+    padding-bottom: 50px;
+}
+.img-style img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
